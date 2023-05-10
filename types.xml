@@ -11,6 +11,11 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
+				<usage name="Military"/>
+				<usage name="Police"/>
+				<value name="Tier1"/>
+				<value name="Tier2"/>
+				<value name="Tier3"/>
     </type>
     <type name="ACOGOptic_6x">
         <nominal>4</nominal>
@@ -23,8 +28,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name=“Shelves”/>
+				<usage name="Military/>
         <usage name=“Police”/>
-        <usage name=“Military”/>
         <usage name=“Prison”/>
         <usage name=“Village”/>
         <value name=“Tier1”/>
@@ -95,9 +100,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+				<usage name="Farm"/>
+				<usage name="Military"/>
+				<usage name="Village"/>
+				<value name="Tier1"/>
+				<value name="Tier2"/>
+				<value name="Tier3"/>
     </type>
     <type name="AK74_Black">
          <nominal>8</nominal>
@@ -109,9 +117,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+				<usage name="Farm"/>
+				<usage name="Military"/>
+				<usage name="Village"/>
+				<value name="Tier1"/> 
+				<value name="Tier2"/>
+				<value name="Tier3"/>
     </type>
     <type name="AK74_Green">
         <nominal>8</nominal>
@@ -123,9 +134,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+				<usage name="Farm"/>
+				<usage name="Military"/>
+				<usage name="Village"/>
+				<value name="Tier1"/>
+				<value name="Tier2"/>
+				<value name="Tier3"/>
     </type>
     <type name="AK74_Hndgrd">
         <nominal>5</nominal>
@@ -137,7 +151,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+				<usage name="Police"/>
+				<usage name="Town"/>
+				<usage name="Village"/>
+				<value name="Tier1"/>
+				<value name="Tier2"/>
+				<value name="Tier3/>
     </type>
     <type name="AK74_WoodBttstck">
         <nominal>5</nominal>
@@ -149,7 +168,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+				<usage name="Police"/>
+				<usage name="Town"/>
+				<usage name="Village/>
+				<value name="Tier1"/>
+				<value name="Tier2"/>
+				<value name="Tier3/>
     </type>
     <type name="AKM">
         <nominal>5</nominal>
@@ -162,6 +186,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="ContaminatedArea"/>
+
     </type>
     <type name="AKS74U">
         <nominal>20</nominal>
